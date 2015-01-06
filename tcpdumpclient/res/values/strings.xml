@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tcpdumpclient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="method_prompt">Choose a country</string>
+    
+    
+    <string-array name="method_arrays">
+        <item>getDataPacketFromIP</item>
+        <item>getDataPacketToIP</item>
+        <item>getDataPacketFromIPAndPort</item>
+        <item>getDataPacketFromPort</item>
+        <item>getDataPacketToPort</item>
+        <item>getDataPacketFromIPToIP</item>
+        <item>getDataPacketFromMac</item>
+        <item>getDataPacketToMac</item>
+        <item>getDataPacketFromMacToMac</item>
+        <item>getDataPacketWithProtocol</item>
+    </string-array>
+
+</resources>

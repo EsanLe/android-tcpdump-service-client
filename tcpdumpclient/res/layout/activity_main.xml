@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.tcpdumpclient.MainActivity" >
+
+    <Spinner
+        android:id="@+id/api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/method_arrays"
+        android:prompt="@string/method_prompt" />
+
+    <EditText
+        android:id="@+id/arg0"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/arg1"
+        android:layout_below="@+id/api"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText> 
+    
+    
+    <EditText
+        android:id="@+id/arg1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/api"
+        android:ems="10" />
+
+    <com.example.tcpdumpclient.MonoTextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/arg0"
+        android:background="#2F2F2F"
+        android:textColor="#EEEEEE"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        customfontdemo:fontName="DroidSansMono.ttf" />
+
+</RelativeLayout>
