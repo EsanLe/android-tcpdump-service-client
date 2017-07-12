@@ -5,6 +5,8 @@ TCPDUMP as Application FWK
 *  An app with UI get packets form binder service by JNI invoking of servicemanager
 *  A native service using binder and get packets by libpcap api
 
+![Screenshot](https://raw.githubusercontent.com/EiddleChen/Android_TcpdumpServiceClient/master/screenshot/screen.png)
+
 Build and flash to rom
 ------------------------
 1.   Download AOSP and put `tcpdumpclient` `tcpdumpservice` to `external` folder of AOSP.
