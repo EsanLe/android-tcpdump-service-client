@@ -1,6 +1,6 @@
 Tcpdumpservice and Tcpdumpclient
 ==============
-TCPDUMP as Application FWK
+TCPDUMP as Application Framework
 
 *  An app with UI get packets form binder service by JNI invoking of servicemanager
 *  A native service using binder and get packets by libpcap api
